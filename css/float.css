@@ -1,0 +1,23 @@
+.float {
+  background-color: #3d3d3d;
+  padding: 30px;
+  margin: 10px;
+  color: white;
+}
+
+.bg-blue {
+  background-color: azure;
+}
+
+.floated-right {
+  float: right;
+}
+
+.floated-left {
+  float: left;
+}
+
+/* help class */
+.clear {
+  clear: right;
+}

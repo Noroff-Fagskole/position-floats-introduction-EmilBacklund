@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  height: 100px;
+  background-color: seagreen;
+}
+
+/* z-index decides which one that to show over the other */
+.one {
+  position: relative;
+  z-index: 1;
+  background-color: slateblue;
+  padding: 10px;
+  width: 200px;
+}
+
+.two {
+  position: absolute;
+  z-index: 2;
+  background-color: tomato;
+  top: 10px;
+  left: 40px;
+  width: 200px;
+  padding: 20px;
+}

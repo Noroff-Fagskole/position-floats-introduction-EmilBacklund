@@ -1,0 +1,10 @@
+.container {
+  height: 500px;
+}
+
+.sticky-position {
+  position: sticky;
+  background-color: salmon;
+  top: 30px;
+  padding: 10px;
+}
